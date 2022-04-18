@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prayosha International</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Roboto:wght@500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <a style="position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 40px;
+    right: 25px;
+    background-color: #fff;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 3px 3px #999;
+    z-index: 100;" href="https://api.whatsapp.com/send?phone=919328861022"><img height="55px" width="55px" src="img/wp.png">
+        <div class="alert alert-light alert-dismissible" style="right: 175px;font-size: small;width: 170px; border-radius: 50px; margin-top: -50px;" role="alert">
+            <strong>Message Us</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    </a>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light  border-top border-5  sticky-top p-0">
+        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white"><img width="150" height="80" src="img/logo.png" class="custom-logo" alt="" srcset="" sizes="(max-width: 178px) 100vw, 178px"></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="products.html" class="nav-item nav-link">Products</a>
+                <a href="blog.html" class="nav-item nav-link">blog</a>
+
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i><a href="tel:9328861022">+91 93288 61022</a></h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="https://nusharindia.com/wp-content/uploads/slider/cache/8c9523f72802abf1e096a9755032c2e7/Web-Banner-28.1.22.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">NUSHAR INDIA</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Protecting Your Dream Home</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"></p>
+                                <a href="products.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="https://nusharindia.com/wp-content/uploads/slider/cache/517f468c17fb34f577f0233b7a6b388f/Web-Banner-3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown"></h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Lizard-Slip Technology</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"></p>
+                                <a href="products1.html#MOTHERCOAT" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="https://nusharindia.com/wp-content/uploads/slider/cache/2688b93f62fb8b9222741826eb2b64cf/Web-Banner-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">NUSHAR INDIA</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Safeguarding Your Home From Decades</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"></p>
+                                <a href="products1.html#TRUEAEGIS" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="https://nusharindia.com/wp-content/uploads/slider/cache/1b59e9b38ff46de15ccffdecdf97f64c/Web-Banner-04.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">NUSHAR INDIA</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4"> Building Envelope</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"></p>
+                                <a href="products1.html#MOTHERCOAT" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="contact.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-12">ENRICHING YOUR CONSTRUCTION</h1>
+                    </b>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-200 wow fadeIn" data-wow-delay="0.5s">
+                            <p class="mb-5"><b>Nushar India is a brainchild of Er. Narendra Kumar Joshi. His vision of providing an energy-efficient building envelope gave birth to a dream.</p>
+                            </b>
+
+                                <p class="m-0">The dream started with an aim to innovate and to stand strong in the construction industry. Being a retired Lieutenant Commander in the Indian Navy backed his grit and fighting spirit to establish Nushar India in the capital
+                                    city of India. The same place where he learned all about industries and industrial life. November 1st, 1991 was the day when he and all his teammates embarked on the journey of enriching the construction life of buildings.
+                                    He believes building envelopes which are equivalent to the skin of a building, and their quality should never be compromised.</p>
+                        </div>
+                        <br>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-80 h-100" style="min-width: 200px; min-height: 200px;" src="https://nusharindia.com/wp-content/uploads/2022/02/0.1.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About End -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-12">Building Envelope to provide Protection from all Elements Including Heat, Rain, Seepage, Leakage, Wind & Cold</h1>
+                    </b>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-200 wow fadeIn" data-wow-delay="0.5s">
+
+                            <p class="m-0">We believe in building envelopes which are equivalent to the skin of a building, and their quality should never be compromised. He believes building envelopes which are equivalent to the skin of a building, and their quality
+                                should never be compromised.</p>
+                        </div>
+                        <br>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-80 h-100" style="min-width: 200px; min-height: 200px;" src="https://nusharindia.com/wp-content/uploads/2021/11/13775975_518470351677976_7331002523974154509_n.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fact Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0" style="background: url(https://cdn.create.vista.com/api/media/small/396854650/stock-vector-wood-plank-shelf-wall-light);  background-attachment: fixed; background-size: auto 100%">
+            <div class="row g-5 mx-lg-0 ">
+
+                <div class="col-lg-6 about-text wow fadeInUp " data-wow-delay="0.3s ">
+                    <h1 class="mb-12 " style="font-size: 50px; ">Our Mission</h1>
+                    </b>
+                    <div class="row g-4 mb-5 ">
+                        <div class="col-sm-200 wow fadeIn " data-wow-delay="0.5s ">
+
+                            <p class="m-0 ">To enrich the life of every building with high-quality and economical products. We aim to deliver energy-efficient construction chemicals and stone processing products.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft " data-wow-delay="0.1s " style="min-height: 400px; ">
+                    <h1 class="mb-12 " style="font-size: 50px; ">Core Values</h1>
+                    </b>
+                    <div class="row g-4 mb-5 ">
+                        <div class="col-sm-200 wow fadeIn " data-wow-delay="0.5s ">
+
+                            <p class="m-0 ">Honesty is the bedrock of trustworthiness and integrity.
+                                <hr> Good communication is the key to the customersâ€™ satisfaction
+                                <hr> Teamwork and mutual understanding and is the core of every collaborative action.
+                                <hr> Quality always wins
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5 ">
+            <div class="container py-5 ">
+                <div class="text-center wow fadeInUp " data-wow-delay="0.1s ">
+
+                    <h1 class="mb-5 ">OUR PRODUCT RANGE</h1>
+                </div>
+                <div class="row g-5 ">
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.3s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/1-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/1-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/1-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/1-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/1.png 341w " sizes="(max-width: 150px) 100vw, 150px ">
+                            </div>
+                            <h4 class="mb-3 ">Water Proofing & heat Barrier Polymer Chemicals</h4>
+                            <a class="btn-slide mt-2 " href="p1.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.5s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/3-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/3-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/3-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/3-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/3.png 341w " sizes="(max-width: 150px) 100vw, 150px ">
+                            </div>
+                            <h4 class="mb-3 ">Add Mixtures(New age Cement additives)</h4>
+                            <a class="btn-slide mt-2 " href="p2.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.7s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/2-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/2-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/2-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/2-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/2.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Paints for Interior & Exterior Walls</h4>
+                            <a class="btn-slide mt-2 " href="p2.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.3s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/4-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/4-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/4-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/4-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/4.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Polymer Putty & Putty Additives</h4>
+                            <a class="btn-slide mt-2 " href="p4.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.5s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/5-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/5-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/5-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/5-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/5.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Adhesives</h4>
+                            <a class="btn-slide mt-2 " href="p5.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.7s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/6-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/6-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/6-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/6-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/6.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Coatings & Stone Bonds</h4>
+                            <a class="btn-slide mt-2 " href="p6.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.7s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/7-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/7-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/7-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/7-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/7.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Transparent Water Proof Coatings</h4>
+                            <a class="btn-slide mt-2 " href="p1.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 wow fadeInUp " data-wow-delay="0.7s ">
+                        <div class="service-item p-4 ">
+                            <div class="overflow-hidden mb-4 ">
+                                <img width="150 " height="150 " src="https://nusharindia.com/wp-content/uploads/2021/08/8-150x150.png " class="attachment-thumbnail size-thumbnail " alt=" " srcset="https://nusharindia.com/wp-content/uploads/2021/08/8-150x150.png
+            150w, https://nusharindia.com/wp-content/uploads/2021/08/8-100x100.png 100w, https://nusharindia.com/wp-content/uploads/2021/08/8-300x300.png 300w, https://nusharindia.com/wp-content/uploads/2021/08/8.png 341w " sizes="(max-width: 150px) 100vw, 150px ">                                </div>
+                            <h4 class="mb-3 ">Stone Processing And Stone Care</h4>
+                            <a class="btn-slide mt-2 " href="p8.html"><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+
+
+        <!-- Pricing Start -->
+        <div class="container-xxl py-5 ">
+            <div class="container py-5 ">
+                <div class="text-center wow fadeInUp " data-wow-delay="0.1s " style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; ">
+
+                    <h1 class="mb-5 ">BLOGS</h1>
+                </div>
+                <div class="row g-8 ">
+                    <div class="col-md-6 wow fadeInUp " data-wow-delay="0.3s " style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp; ">
+                        <div class="price-item ">
+                            <div class="border-bottom p-4 mb-4 ">
+                                <img style="width: 100%; max-width: 500px; height: auto; " src="https://nusharindia.com/wp-content/uploads/2021/11/waterproofing-2.jpg ">
+                            </div>
+                            <div class="p-4 pt-0 ">
+                                <h3><b>Our Multipurpose Waterproofing &amp; Heat Barrier Polymers</b></h3>
+                                <hr> You can trust us with all your plumbing needs like repairs and installation of pipes, fixtures, sinks, Taps, Flush tank repair etc.
+                                <p></p>
+
+                                <a class="btn-slide mt-2 " href="blog1.html "><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp " data-wow-delay="0.5s " style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp; ">
+                        <div class="price-item ">
+                            <div class="border-bottom p-4 mb-4 ">
+                                <img style="width: 100%; max-width: 500px; height: auto; " src="https://nusharindia.com/wp-content/uploads/2021/11/Nushars-Paint.png ">
+
+                            </div>
+                            <div class="p-4 pt-0 ">
+
+                                <h3><b>Which Type of Paint is Best for Interior Walls? - Nushar's Blog</b></h3>
+                                <hr> We offer detailed HVAC repair and replacement services. Whether it is a periodic check-up or an annual maintenance, we can help.
+                                <p></p>
+                                <a class="btn-slide mt-2 " href="blog2.html "><i class="fa fa-arrow-right "></i><span>Read More</span></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+        <div style="background: url(https://github.blog/wp-content/uploads/2020/12/102573561-8e872300-40a3-11eb-9feb-b480aeae0564.png?resize=1024%2C513);   background-attachment: fixed; background-size: auto 100%">
+            <div style="color: #fff; font-size: 50px;font-family: 'Times New Roman', Times, serif; ">
+                <br>
+                <center> Ask The Expert</center><br> </div>
+            <div style="font-size: 25px; color: #fff;font-family: 'Times New Roman', Times, serif; ">
+                <center>Our team of experts is here to guide you.<br> You can freely ask about all your queries relating to which product will suit you and your building the best.<br> Weâ€™ll provide in-depth details about all our products and the proper way
+                    to use them.<br> Even if you are confused between two products, ask us and get the professional advice you need.</center><br><br>
+            </div>
+            <div style="background:transparent;color: rgb(255, 0, 0);font-size: 25px; ">
+                <center> <button style="border-radius: 20px; "> 
+                   
+                   +91 93288 61022
+                    
+                    </button>
+                    <center><br><br>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase mb-3">Contact Us</h6>
+                        <h1 class="mb-5">Get In Touch</h1>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                            <div class="ps-4">
+                                <h6>Call Us</h6>
+                                <h3 class="text-primary m-0" style="font-size: 15px;"><a href="tel:9328861022">+91 93288 61022</a></h3>
+                            </div>
+                        </div><br>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-envelope fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                            <div class="ps-4">
+                                <h6>Email Us</h6>
+                                <h3 class="text-primary m-0" style="font-size: 15px;"><a href="mailto:prayoshaexport1322@gmail.com">prayoshaexport1322@gmail.com</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" name="Name" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" name="Email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" name="Phone" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea class="form-control border-0" name="Message" placeholder="Enter Message"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quote End -->
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzgQtp_d5ji9Y1YFGtYmOPI5pBqUJlK_zL4ZcYKjrGFfiYj--OGnrc5_BBqS-zYIpGsSg/exec'
+            const form = document.forms['google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Contact End -->
+        <!-- Quote End -->
+
+
+        <!-- Team Start -->
+
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+
+
+        <div class="container-xxl py-5 wow fadeInUp " data-wow-delay="0.1s ">
+            <div class="container py-5 ">
+                <div class="text-center ">
+                    <h6 class="text-secondary text-uppercase ">Testimonial</h6>
+                    <h1 class="mb-0 ">Our Clients Say!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp " data-wow-delay="0.1s ">
+                    <div class="testimonial-item p-4 my-5 ">
+                        <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4 "></i>
+                        <div class="d-flex align-items-end mb-4 ">
+                            <img class="img-fluid flex-shrink-0 " src="https://cdn-icons-png.flaticon.com/128/1177/1177568.png " style="width: 80px; height: 80px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Client</h5>
+                                <p class="m-0 ">CONTRACTOR</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">Best products in paints , water proofing ,nano coating and heat proofing. If once used will solve your all long lasting problems.</p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5 ">
+                        <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4 "></i>
+                        <div class="d-flex align-items-end mb-4 ">
+                            <img class="img-fluid flex-shrink-0 " src="https://cdn-icons-png.flaticon.com/128/1177/1177568.png " style="width: 80px; height: 80px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Client</h5>
+                                <p class="m-0 ">CUSTOMER</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">Ultimate chemicals and additives for Building construction . They have there own research product in this stream. Mr. Narendra joshi is the founder of this organization, he have great knowledge in chemical engineering. And having
+                            his own R &amp; D lab.</p>
+                    </div>
+
+                    <div class="testimonial-item p-4 my-5 ">
+                        <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4 "></i>
+                        <div class="d-flex align-items-end mb-4 ">
+                            <img class="img-fluid flex-shrink-0 " src="https://cdn-icons-png.flaticon.com/128/1177/1177568.png " style="width: 80px; height: 80px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Client</h5>
+                                <p class="m-0 ">CEO</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">Best products in paints , water proofing ,nano coating and heat proofing. If once used will solve your all long lasting problems. Pankaj Joshi CONTRACTOR Used in overhead and underground water tank 8yrs back and still it's working.
+                            No leakage or seepage at all. Excellent product if application done by an expert with as per instructions given by company. .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn " data-wow-delay="0.1s " style="margin-top: 6rem; ">
+            <div class="container py-5 ">
+                <div class="row g-5 ">
+                    <div class="col-lg-3 col-md-6 ">
+                        <h4 class="text-light mb-4 ">Contact</h4>
+                        <p class="mb-2 "><i class="fa fa-phone-alt me-3 "></i><a href="tel:9328861022 ">+91 93288 61022</a></p>
+                        <p class="mb-2 "><i class="fa fa-envelope me-3 "></i><a href="mailto:prayoshaexport1322@gmail.com ">prayoshaexport1322@gmail.com</a></p>
+                        <div class="d-flex pt-2 ">
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-twitter "></i></a>
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-facebook-f "></i></a>
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-youtube "></i></a>
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-linkedin-in "></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 ">
+                        <h4 class="text-light mb-4 ">Quick Links</h4>
+                        <a class="btn btn-link " href="about.html ">About Us</a>
+                        <a class="btn btn-link " href="contact.html ">Contact Us</a>
+                        <a class="btn btn-link " href="products.html ">Our Products</a>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+                            <h2 class="mb-2 text-white"><img width="150" height="80" src="img/logo.png" class="custom-logo" alt="" srcset="" sizes="(max-width: 178px) 100vw, 178px"></h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="copyright ">
+                    <div class="row ">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 ">
+                            &copy; <a class="border-bottom " href="index.html">prayosha International</a>, All Right Reserved.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js "></script>
+        <script src="lib/wow/wow.min.js "></script>
+        <script src="lib/easing/easing.min.js "></script>
+        <script src="lib/waypoints/waypoints.min.js "></script>
+        <script src="lib/counterup/counterup.min.js "></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js "></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js "></script>
+</body>
+
+</html>
